@@ -1,0 +1,19 @@
+
+<html xmlns:th="http://www.thymeleaf.org">
+<title>Product Management</title>
+<link th:href="@{CSS/menu.css?v2=1.0}" rel="stylesheet">
+<link th:href="@{CSS/product.css}" rel="stylesheet">
+<script th:src="@{JS/product.js}"></script>
+    <nav class="navbar">
+      <div class="nav-container">
+        <ul class="nav-menu">
+          <li><a id="home" href="/products-management">Home</a></li>
+          <li><a id="insert" href="add">Add Product</a></li>
+          <li><a id='list' href="products">Product List</a></li>
+          <li><a id='delete' href="delete">Delete Product</a></li>
+          <li><a id='edit' href="edit">Edit Product</a></li>
+          <li><a id='search' href="search">Search Product</a></li>
+        </ul>
+     </div>
+ </nav>
+</html>
